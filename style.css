@@ -41,10 +41,73 @@ h4 {
 
 /**** Container *****/
 
-/***** Header ******/
+.container {
+  width:100vw;
+  padding: 20px;
+}
 
+/***** Header ******/
+#header{
+  background: var(--secondary-red);
+  color: var(--basic-white);
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
 /***** Navbar styles ****/
+nav {
+  padding: 10px;
+  width:100%;
+  background: var(--basic-white);
+  position:fixed;
+  bottom:0;
+  
+  
+}
+
+nav ul {
+  display:flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+nav ul li img{
+  width:50px;
+}
+
 
 /***** Card styles ****/
+.card {
+  background: var(--primary-orange);
+  padding:20px 15px;
+  border-radius: 10px;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+.card img {
+  width:100%;
+  margin: 10px 0;
+}
+
+.card button {
+  background: var(--primary-blue);
+  color: var(--basic-white);
+  border: none;
+  padding: 10px 20px;
+  margin-top:10px;
+  border-radius: 10px;
+}
+
 
 /******* Search input *******/
+.search-input{
+  width:100%;
+  padding:10px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-blue);
+  text-align: left;
+}
+
+input::placeholder {
+
+}
